@@ -21,4 +21,3 @@ for i in file_open[1:]:
     corrida.add_turn(codigo, turn)
 
 corrida.print_result()
-

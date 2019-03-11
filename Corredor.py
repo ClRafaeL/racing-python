@@ -3,11 +3,11 @@ class Corredor():
         self.cod = cod
         self.name = name
         self.turns = []
-        self.position = 0
+        self.position = 9
 
     def add_turn(self, turn):
         self.turns.append(turn)
-        if self.turns.__len__ == 4:
+        if len(self.turns) == 4:
             return True
 
         return False
